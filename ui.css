@@ -1,0 +1,14 @@
+
+:root{ --bg:#0f1320; --ui:#fff; --accent:#00ff88; --player:#00aaff; --territory:#00ff8866; }
+html,body{height:100%;margin:0;background:var(--bg);color:var(--ui);font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
+#ui{position:fixed;inset:0;pointer-events:none}
+#hud{position:absolute;top:8px;left:8px;background:#0006;padding:8px 12px;border-radius:8px;backdrop-filter:blur(8px)}
+.hidden{opacity:0;visibility:hidden}
+#gameOver{position:absolute;inset:0;display:grid;place-content:center;background:#0008}
+#gameOver button{pointer-events:auto;margin:6px;padding:10px 14px;border-radius:10px;border:0}
+#reviveBtn{background:var(--accent);color:#022;font-weight:700}
+#restartBtn{background:#0006;color:#fff;border:1px solid #fff3}
+#adModal{position:absolute;inset:0;display:grid;place-items:center;background:#000c}
+#adModal.hidden{display:none}
+.progress{width:260px;height:8px;background:#fff2;border-radius:999px;overflow:hidden;margin-top:10px}
+#adProgress{height:100%;width:0;background:var(--accent)}

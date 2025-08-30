@@ -1,0 +1,21 @@
+
+<div id="ui">
+  <div id="hud">Territory: <span id="scoreVal">0%</span></div>
+  <div id="gameOver" class="hidden">
+    <div style="text-align:center">
+      <h2>Game Over</h2>
+      <p>Watch a 30s ad to revive, or start a new game.</p>
+      <button id="reviveBtn">Watch 30s Ad to Revive</button>
+      <button id="restartBtn">Start New Game</button>
+      <div class="progress"><div id="adProgress" style="width:0"></div></div>
+      <p><small>Ad time left: <span id="adTimer">30</span>s</small></p>
+    </div>
+  </div>
+  <div id="adModal" class="hidden">
+    <div style="background:#111;border:1px solid #fff2;border-radius:12px;padding:20px;min-width:260px;text-align:center">
+      <h3>Ad playing…</h3>
+      <p>Please wait <span id="adTimerModal">30</span>s</p>
+      <div class="progress"><div id="adProgressModal"></div></div>
+    </div>
+  </div>
+</div>
